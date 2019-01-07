@@ -34,3 +34,13 @@
     visibility: hidden;
     width: 240px;
 }
+
+.show, .hide{
+    opacity: 1;
+    visibility: visible;
+}
+
+.show {
+    transition: opacity 1.5s ease-in;
+    z-index: 2;
+}
