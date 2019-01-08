@@ -9,7 +9,13 @@
     padding-bottom: 44px;
     width: 100%;
 }
-
+img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
 .image-slide {
     background-image: url(./Image/imgPhone.png);
     align-self: center;
@@ -96,7 +102,7 @@
     margin: 0 0 10px;
     padding: 10px 0;
 }
-.login-fb {
+.login {
     margin-top: 8px;
     margin-right: 40px;
     margin-left: 40px;
@@ -133,6 +139,20 @@
 
 }
 
+.btn-sign-up {
+    padding: 7px 109px;
+}
+.policy {
+    color: #999;
+    margin: 10px 60px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+}
+.policy > a {
+    color: #999;
+    font-weight: 600;
+}
 .logo-fb {
     background-image: url(/Image/Logo.png);
     background-position: -92px -425px;
@@ -240,3 +260,73 @@
     font-size: 12px;
     padding: 14px 0 2px 8px!important;
 }
+
+.gr27e {
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+}
+
+.izU2O {
+    color: #262626;
+    font-size: 14px;
+    margin: 15px;
+    text-align: center;
+}
+
+a, a:visited {
+    text-decoration: none;
+
+}
+
+.izU2O>a, .izU2O>a:hover {
+    color: #3897f0;
+}
+
+.izU2O>a:active {
+    color: #003569;
+}
+
+.txt {
+    color: #262626;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 14px 20px;
+    text-align: center;
+}
+.get-app {
+    align-items: stretch;
+    border: 0 solid #000;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+    width: 450px;
+    margin-left: -55px;
+}
+.app {
+ 
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.link-app {
+    margin-right: 8px;
+}
+
+.link-app:first-child {
+    margin-left: 30px;
+}
+
+
+.img-app {
+    height: 40px;
+}
+
