@@ -185,8 +185,10 @@
     width: 100%;
     border: 1px solid #efefef;
     background: #fafafa;
+
+    
 }
-.phone-or-email {
+.pan {
     height: 36px;
     flex: 1 0 0;
     padding: 0;
@@ -223,4 +225,18 @@
     padding: 9px 0 7px 8px;
     text-overflow: ellipsis;
     background: #fafafa;
+    width: 238px;
+}
+
+.inp-focus {
+    border: 1px solid #b2b2b2;
+}
+
+.fc .lbl {
+    transform: scale(.83333) translateY(-10px);
+}
+
+.fc .inp {
+    font-size: 12px;
+    padding: 14px 0 2px 8px!important;
 }
